@@ -1,0 +1,31 @@
+
+Class Columns (Driver class, imports GameMap)
+    methods: run_game
+
+Class GameMap (Gameboard class, imports Faller and all Jewel classes)
+    methods: tick, check_match, match, fall, check_events, keydown, draw
+
+Class Faller (Contains 3 random Jewels)
+    methods: generate, fall, place, move, check_move, rotate, check_game_over, draw
+
+    Class Jewel
+        methods: move, fall, check_fall, draw
+
+        Class BlueJewel [inheritets Jewel]
+        Class EmeraldJewel [inheritets Jewel]
+        Class GreyJewel [inheritets Jewel]
+        Class IndigoJewel [inheritets Jewel]
+        Class OrangeJewel [inheritets Jewel]
+        Class PinkJewel [inheritets Jewel]
+        Class PurpleJewel [inheritets Jewel]
+        Class RedJewel [inheritets Jewel]
+        Class TealJewel [inheritets Jewel]
+        Class YellowJewel [inheritets Jewel]
+
+
+
+
+
+
+
+
